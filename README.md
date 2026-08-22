@@ -1,6 +1,12 @@
 # Fault-to-Actionability
 
-A beginner-friendly Streamlit portfolio project that connects manufacturing fault visibility to repeat-fault detection, ownership, problem-solving actions, countermeasure tracking, and effectiveness confirmation.
+A beginner friendly Streamlit portfolio project that connects manufacturing fault visibility to repeat fault detection, ownership, problem-solving actions, countermeasure tracking, and effectiveness confirmation.
+
+## Business problem
+Manufacturing operations can have extensive fault data but still struggle to convert repeated events into owned and verified permanent countermeasures.
+
+## Project hypothesis
+A structured workflow that connects fault events to accountability and closure can improve actionability even when visibility already exists.
 
 ## Live application
 Add your Streamlit URL here after deployment.
@@ -17,12 +23,6 @@ Add your Streamlit URL here after deployment.
 
 ### Method
 ![Fault-to-actionability Method](assets/method_limitation.png)
-
-## Business problem
-Manufacturing operations can have extensive fault data but still struggle to convert repeated events into owned and verified permanent countermeasures.
-
-## Project hypothesis
-A structured workflow that connects fault events to accountability and closure can improve actionability even when visibility already exists.
 
 ## Features
 - 650 synthetic fault events across multiple equipment assets and four crews

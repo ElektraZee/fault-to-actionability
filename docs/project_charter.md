@@ -4,7 +4,7 @@
 Manufacturing operations can have visibility to equipment faults without a consistent process for converting repeat events into owned, verifiable problem closures.
 
 ## Hypothesis
-A workflow that connects fault-event data to repeat-fault detection, ownership, containment, root-cause analysis, countermeasure tracking, and effectiveness confirmation will improve actionability of the production floor.
+A structured workflow that connects fault-event data to repeat-fault detection, ownership, containment, root-cause analysis, countermeasure tracking, and effectiveness confirmation may improve actionability of the production floor.
 
 ## Target users
 - Production team leaders
@@ -14,7 +14,7 @@ A workflow that connects fault-event data to repeat-fault detection, ownership, 
 - Manufacturing systems analyst
 - Production Managers
 
-## In scope
+## Within scope
 - Synthetic equipment-fault events
 - Repeat-fault identification
 - Fault-recovery analysis
