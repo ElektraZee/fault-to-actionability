@@ -1,7 +1,9 @@
 # Fault-to-Actionability
 
 **Status**: Developing Prototype
+
 **Focus**: Visibility to Actionability
+
 **Data**: Fully Synthetic
 
 An exploratory Streamlit prototype examining a narrower question within the broader research project:
@@ -9,7 +11,7 @@ An exploratory Streamlit prototype examining a narrower question within the broa
 
 This project focuses specifically on manufcturing faults:
 
->Once a fault is visible, what additional structure may be needed to connect it to repeatability detection, ownership, problem-solving actions, countermeasure follow through, and evidence of effectiveness?
+>**Once a fault is visible, what additional structure may be needed to connect it to repeatability detection, ownership, problem-solving actions, countermeasure follow through, and evidence of effectiveness?**
 
 Fault-to-Actionability provides one possible workflow for exploring that question. It is a portfolio research artifact and technical protoype, not a validated production system.
 
@@ -22,7 +24,7 @@ Manufacturing operations fault data can make events, duration, and recurrence vi
 * What action is expected
 * How problem-solving activity should be documented
 * How countermeasures should be followed
-* What evidence is neededbefore a problem is considered closed
+* What evidence is needed before a problem is considered closed
 
 This prototype explores how those elements might remain connected within one workflow
 
@@ -141,6 +143,6 @@ This project is still developing. Practitioner and researcher feedback would be 
 * What context is needed before a repeated fault can be treated as a problem rather than another event?
 * Who should have the authority to assign, advance, or close a fault-related problem?
 * What evidence is credible enough to support an effectiveness review?
-* Which parts of this workflow should remain human led rather than automated?
+* Which parts of this workflow should remain human controlled rather than automated?
 
 Feedback from this prototype will be used to refine the broader research question about what makes visible shop-floor information actionable.
