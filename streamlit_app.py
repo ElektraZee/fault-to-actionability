@@ -115,11 +115,12 @@ repeat_faults = get_repeat_faults(events, demo_today)
 #App Setup
 st.title("Fault-to-Actionability")
 st.caption(
-    "A synthetic-data portfolio prototype that connects manufacturing fault "
+    "A synthetic data portfolio prototype that connects manufacturing fault "
     "visibility to ownership, problem solving, countermeasure tracking, and "
     "verified closure."
 )
 
+#sidebar setup with reset button and project controls
 with st.sidebar:
     st.header("Project controls")
     st.write(
@@ -135,7 +136,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.write("Built By: **Elektra Desmillienne**")
-    st.write("Manufacturing Technology and Process Engineering Portforlio")
+    st.write("Manufacturing Technology and Process Engineering Portfolio")
 
 overview_tab, explorer_tab, board_tab, method_tab = st.tabs(
     ["Overview", "Fault Explorer", "Problem Board", "Method"]
@@ -162,7 +163,7 @@ with overview_tab:
     left_column, right_column = st.columns(2)
 
     with left_column:
-        st.subheader("Repeat-fault Pareto")
+        st.subheader("Repeatitive Fault Pareto")
         if repeat_faults.empty:
             st.info("No fault pairs meet the repeat threshold.")
         else:
@@ -214,7 +215,7 @@ with overview_tab:
     )
 
 with explorer_tab:
-    st.subheader("Explore synthetic fault events")
+    st.subheader("Explore Fault Events")
 
     filter_1, filter_2, filter_3 = st.columns(3)
 
@@ -288,7 +289,7 @@ with explorer_tab:
     )
 
 with board_tab:
-    st.subheader("Problem action board")
+    st.subheader("Problem Action Board")
     st.write(
         "Updates are stored only for your current browser session. They reset "
         "when you press the reset button or when the hosted app restarts."
@@ -462,10 +463,10 @@ with method_tab:
     st.markdown(
         """
 - **Fault duration:** fault-cleared time - fault-start time.
-- **Restart delay:** equipment-restarted time - fault-cleared time.
-- **Total recovery time:** equipment-restarted time - fault-start time.
+- **Restart delay:** equipment restarted time - fault cleared time.
+- **Total recovery time:** equipment restarted time - fault start time.
 - **Repeat fault:** the same equipment/fault-code pair occurring at least
-  3 times within the demo's 7-day window.
+  3 times within the demo's 7day window.
 - **Overdue problem:** an open problem with a due date earlier than the demo
   reference date.
         """
@@ -476,8 +477,8 @@ with method_tab:
         """
 - All data and results are synthetic.
 - This is a prototype, not a production MES or specific Company System.
-- Problem-board edits are session-based and are not permanently stored.
-- The application supports human problem solving; it does not diagnose root
+- Problem Board edits are session based and are not permanently stored.
+- The application supports human led problem solving; it does not diagnose root
   cause automatically.
         """
     )
