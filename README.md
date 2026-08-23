@@ -16,7 +16,7 @@ This project focuses specifically on manufcturing faults:
 Fault-to-Actionability provides one possible workflow for exploring that question. It is a portfolio research artifact and technical protoype, not a validated production system.
 
 ## Live application
-Streamlit URL here
+[Open the live Fault-to-Actionability Application] (https://fault-to-actionability-elektra-desmillienne.streamlit.app/)
 
 ## Problem being explored
 Manufacturing operations fault data can make events, duration, and recurrence visible. Visibility alone however, doe not define:
