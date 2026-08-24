@@ -1,6 +1,6 @@
 # Fault-to-Actionability
 
-**Status**: Developing Prototype
+**Status**: Prototype
 
 **Focus**: Visibility to Actionability
 
